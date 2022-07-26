@@ -1,9 +1,11 @@
-_G.Webhook = "" --Your Webhook
-_G.Discord_UserID = "" -- ID To Ping
+_G.Webhook = "https://discord.com/api/webhooks/989009028631916544/po8VdKk_tilkPT-4eKIhL3XbTThmvYzeBCoN0p5agv75zR2i4zGRgE6Mf4B344FCKY4m"
+_G.Discord_UserID = ""
 _G.PetsToPing = { 
-    "Hydra",
-    "King Hydra",
-    "Omega One"
+    "Cool Sun",
+    "Blazing Guardian",
+    "Fracture",
+    "Dragon",
+    "Dark Defender"
 } -- Only Legendary/Secrets
 
 --You have to rejoin when you already execute it.
