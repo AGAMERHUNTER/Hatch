@@ -14,9 +14,9 @@ if _G.Executed == nil then
                 msg = {
                     ["content"] = Message,
                     ["embeds"] = {{
-                        ["title"] = "Eggs Hatched: "..game:GetService("Players").LocalPlayer.leaderstats.Eggs.Value.."   |   ".."Coins: "..game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame["p_"..game.Players.LocalPlayer.UserId].ChildrenFrame["GameStat_Coins"].OverlayFrame.StatText.Text,
+                        ["title"] = "Eggs Hatched: "..game:GetService("Players").LocalPlayer.leaderstats.Eggs.Value.."
                         ["description"] = kkay[2],
-                        ["color"] = 65535,
+                        ["color"] = EE4B2B,
                     }}
                 }
                 local response = syn.request(
