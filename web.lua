@@ -7,4 +7,4 @@ _G.PetsToPing = {
 } -- Only Legendary/Secrets
 
 --You have to rejoin when you already execute it.
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hosadhej31/Mining-Simulator-2-Webhook/main/webhook.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AGAMERHUNTER/Hatch/main/webhook.lua"))()
