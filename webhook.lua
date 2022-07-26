@@ -8,7 +8,7 @@ if _G.Executed == nil then
         if okay[1] == "[Server]:" and okay[2] == game.Players.LocalPlayer.Name then
             for i,v in pairs(_G.PetsToPing) do
                 if string.find(child.TextLabel.Text, v) then
-                    Message = "-New Pet Hatched" .. tostring(_G.Discord_UserID) .. "-"
+                    Message = "<New Pet Hatched" .. tostring(_G.Discord_UserID) .. ">"
                 end
             end
                 msg = {
