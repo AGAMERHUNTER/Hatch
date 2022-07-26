@@ -14,7 +14,6 @@ if _G.Executed == nil then
                 msg = {
                     ["content"] = Message,
                     ["embeds"] = {{
-                        ["description"] = kkay[2],
                         ["color"] = EE4B2B,
                     }}
                 }
