@@ -8,7 +8,7 @@ if _G.Executed == nil then
         if okay[1] == "[Server]:" and okay[2] == game.Players.LocalPlayer.Name then
             for i,v in pairs(_G.PetsToPing) do
                 if string.find(child.TextLabel.Text, v) then
-                    Message = "New Pet Hatched"
+                    Message = " :loudspeaker: <@" .. tostring(_G.Discord_UserID) .. ">"
                 end
             end
                 msg = {
@@ -16,7 +16,7 @@ if _G.Executed == nil then
                     ["embeds"] = {{
                         ["title"] = "Eggs Hatched: "..game:GetService("Players").LocalPlayer.leaderstats.Eggs.Value.."   |   ".."Coins: "..game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame["p_"..game.Players.LocalPlayer.UserId].ChildrenFrame["GameStat_Coins"].OverlayFrame.StatText.Text,
                         ["description"] = kkay[2],
-                        ["color"] = 000000,
+                        ["color"] = 65535,
                     }}
                 }
                 local response = syn.request(
